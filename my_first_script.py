@@ -7,3 +7,5 @@ new
 this is script
 update
 """
+
+print('Hello World!')
