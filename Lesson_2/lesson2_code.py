@@ -8,7 +8,6 @@ b = float()  # десятичные числа
 
 print(a, b)
 
-
 a = 2
 b = 2.5
 print(a, b)
@@ -69,8 +68,13 @@ print(y)
 x = 25 * 3 - 2 / 4 - 2 # в питоне считает по приоритетам(как в математике)
 print(x)
 
+unlucky_ticket = 938984
+lucky_ticket = 123501  # в сумме 3 числа, должны быть одинаковыми
 
-
+left_side = unlucky_ticket // 1000  # поделит на 1000. 3 цифры последних уберет
+print(left_side)
+right_side = unlucky_ticket % 1000  # остаток от деления
+print(right_side)
 
 
 
