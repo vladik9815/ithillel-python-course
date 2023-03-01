@@ -18,7 +18,7 @@ fuel_cost_per_liter_UAH = 40
 our_rate = (fuel_consumption / 100) * consumption_for_any_distance * fuel_cost_per_liter_UAH
 print(f"Стоимость вашей поездки составялет {our_rate} UAH")
 
-#Хотел попробовать так, чтобы округлить сразу, но ругается на стринг :) отдельно не писал
+#Хотел попробовать так, чтобы округлить сразу, но ругается на стринг :) отдельно не писал "print(round(our_rate, 2))"
 # print(round(f"Стоимость вашей поездки составялет {our_rate, 2} UAH")
 
 
