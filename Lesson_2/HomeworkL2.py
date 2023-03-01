@@ -1,5 +1,5 @@
 #вводим наши данные
-user_input = input("Какой расход у вашего авто в на 100 км?")
+user_input = input("Какой расход у вашего авто на 100 км?")
 fuel_consumption = float(user_input)
 
 user_input = input("Укажите дистанцию, сколько нужно проехать")
